@@ -1,7 +1,13 @@
-* {
+body {
+  margin:0;
+  padding:0;
+}
+
+#root {
   font-family:'permanent marker';
   color:black;
   background-color:#E5E7EB;
+
 }
 
 p {
@@ -31,4 +37,10 @@ p {
 
 .badge-container {
   margin:1rem;
+}
+
+.testimonials-container {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
 }

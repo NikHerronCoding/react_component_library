@@ -205,3 +205,119 @@
 .card:hover {
     box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.10);
 }
+
+/*testimonial*/
+
+.testimonial {
+    width:1358px;
+    min-height:592px;
+    display:flex;
+    align-items:center;
+}
+
+.testimonial, .testimonial * {
+    color:white;
+    font-family:'Inter', sans-serif;
+
+}
+
+.testimonial-photo {
+    border-radius:12px;
+    position:absolute;
+    left:25%;
+    width:384px;
+    height:464px;
+    object-fit:cover;
+}
+
+.testimonial-content-container {
+    height:400px;
+}
+.testimonial-content-container, .testimonial-content-container * {
+    background: #2545B8;
+}
+
+.testimonial-logo, .testimonial-text, .testimonial-name, .testimonial-title {
+    position:relative;
+    left:500px;
+    top:5rem;
+}
+
+.testimonial-text {
+    width:60%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+
+.testimonial-name {
+    font-weight: 700;
+    line-height: 2rem;
+    font-size:1rem;
+    width:40%;
+    margin-bottom:0;
+}
+
+.testimonial-title {
+    width:40%;
+    font-size:1rem;
+    
+}
+
+/*testimonial*/
+
+.testimonial-mobile {
+    width:384px;
+    height:592px;
+    display:flex;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    background: rgb(37,69,184);
+    background: linear-gradient(0deg, rgba(37,69,184,1) 80%, rgba(255,255,255,1) 80%);
+    margin:1rem;
+
+}
+
+.testimonial-photo-mobile {
+    width:344px;
+    height:206px;
+    object-fit:cover;
+    object-position:0px -100px;
+    border-radius:12px;
+    z-index:3;
+
+}
+
+.testimonial-content-container-mobile {
+    color: #FFF;
+}
+
+.testimonial-logo-mobile {
+    margin:1rem;
+    margin-top:2rem;
+}
+
+ .testimonial-text-mobile{
+    font-size:1.5rem;
+    font-family:'Inter', sans-serif;
+    margin:1rem;
+}
+
+.testimonial-name-mobile {
+    font-size:1rem;
+    font-weight:700;
+    font-family:'Inter', sans-serif;
+    margin-left:1rem;
+    margin-bottom:0;
+}
+
+.testimonial-title-mobile {
+    font-size:1rem;
+    font-weight:500;
+    font-family:'Inter', sans-serif;
+    margin-left:1rem;
+}
+
+
+
