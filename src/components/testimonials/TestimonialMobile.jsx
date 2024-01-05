@@ -2,7 +2,7 @@ import React from 'react';
 import quote from '/icons/quote.svg'
 import stockImage from '/pictures/stock_image.jpg';
 
-export default function TestimonialPicMobile({img=stockImage,name="Jane Doe", title="Startup, CTO", children}) {
+export default function TestimonialMobile({img = stockImage ,name="Jane Doe", title="Startup, CTO", children}) {
 
     return (
         <div className="testimonial-mobile">
@@ -19,8 +19,6 @@ export default function TestimonialPicMobile({img=stockImage,name="Jane Doe", ti
 
                 <p className="testimonial-title-mobile">{title}</p>
             
-        
-
             </div>
             
         </div>

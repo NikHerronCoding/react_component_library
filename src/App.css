@@ -38,7 +38,10 @@ p {
 .badge-container {
   margin:1rem;
 }
-
+.banner-container {
+  width:900px;
+  
+}
 .testimonials-container {
   display:flex;
   flex-direction:column;

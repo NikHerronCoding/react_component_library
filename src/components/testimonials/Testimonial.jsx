@@ -2,7 +2,7 @@ import React from 'react';
 import quote from '/icons/quote.svg'
 import stockImage from '/pictures/stock_image.jpg';
 
-export default function TestimonialPic({img=stockImage,name="Jane Doe", title="Startup, CTO", children}) {
+export default function Testimonial({img=stockImage,name="Jane Doe", title="Startup, CTO", children}) {
 
     return (
         <div className="testimonial">
